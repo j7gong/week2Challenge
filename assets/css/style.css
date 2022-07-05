@@ -118,6 +118,13 @@ border-color: var(--primary-color);
 /* SECTION TITLE STYLES END */
 
 /* CONTENT STYLES START */
+.content section nav {
+    width: 300px;
+}
+
+.content section block {
+    width: 1400px;
+}
 
 .content section {
     background-color: var(--tertiary-color);
@@ -139,7 +146,7 @@ border-color: var(--primary-color);
     line-height: 1.7;
     font-size: 20px;
     text-align: justify;
-    margin: 30px 70px 10px 0px;
+    margin: 30px 0px 10px 0px;
     padding-left: 40px;
 } 
 /* ABOUT STYLES END */
@@ -153,7 +160,7 @@ border-color: var(--primary-color);
 .work-content {
     border-left: 3px solid;
     color: var(--primary-color);
-    margin: 30px 70px 10px 0px;
+    margin: 30px 0px 10px 0px;
     padding-left: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -175,14 +182,17 @@ border-color: var(--primary-color);
 
 .showcase-layer1 {
     background-image: url("../images/work_bg1.jpg");
-    padding: 10px 1300px 0px 0px;
+    padding: 10px 1250px 0px 0px;
     border: 5px solid var(--secondary-color);
-    margin: 10px;
+    margin: 10px 0px 10px 0px;
+    height: 500px;
 }
 
-.showcase-tag {
+.showcase-tag1 {
     background-color: var(--secondary-color);
     margin: 0px 10px 10px 0px;
+    position: relative;
+    top: 340px;
 }
 
 .showcase-layer2 {
@@ -190,35 +200,44 @@ border-color: var(--primary-color);
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+    height: 200px;
+}
+
+.showcase-layer2 smallbox {
+    width: 668px;
 }
 
 .secondary-border {
     border: 5px solid var(--secondary-color);
-    margin: 10px;
     padding: 10px 540px 0px 0px;
+}
+
+.showcase-tag2 {
+    background-color: var(--secondary-color);
+    margin: 0px 10px 10px 0px;
+    position: relative;
+    top: 30px;
 }
 
 .showcase2 {
     background-image: url("../images/work_bg2.jpg");
+    margin: 0px 10px 0px 0px;
 }
 
 .showcase3 {
     background-image: url("../images/work_bg3.jpg");
-}
-
-.showcase-layer3 {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 0px 0px 0px 10px;
 }
 
 .showcase4 {
     background-image: url("../images/work_bg4.jpg");
+    margin: 0px 10px 0px 0px;
 }
 
 .showcase5 {
     background-image: url("../images/work_bg5.jpg");
+    margin: 0px 0px 0px 10px;
 }
 
 /* WORK END */

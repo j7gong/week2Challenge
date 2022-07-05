@@ -18,6 +18,7 @@ body {
     border-radius: 10px; 
     border: 2px solid var(--primary-color);
     padding: 10px 10px;
+    margin: 5px;
   }
 
 /* HEADER / NAV BAR STYLES START */
@@ -74,11 +75,33 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-
-color: var(--secondary-color);
-border-radius: 15px;
-text-shadow: 2px 2px 5px var(--tertiary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px var(--tertiary-color);
 }
 
 /* HEADER / NAVBAR STYLES END */
 
+/* HERO STYLE START*/
+.hero {
+    font-family: BonVoyage, Georgia, Times, serif, light;
+    background-image: url("../images/hero-bg.jpg");
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero div {
+    position: absolute;
+    right: 0;
+    padding: 10px 90px 0px 0px;
+}
+
+.hero h2 {
+    background-color: var(--secondary-color);   
+    font-size: 25px;
+    color: var(--fourth-color);
+    position: relative;
+}
+
+/* END HERO STYLES*/

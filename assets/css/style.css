@@ -13,7 +13,6 @@
 }
 
 body {
-    color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px; 
     border: 2px solid var(--primary-color);
@@ -105,3 +104,45 @@ header nav ul li a:hover {
 }
 
 /* END HERO STYLES*/
+
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 48px;
+    border-right: 3px solid;
+    color: var(--primary-color);
+    /*padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;*/
+}
+
+.primary-border {
+border-color: var(--primary-color);
+}
+
+.secondary-border {
+border-color: var(--primary-color);
+}
+/* SECTION TITLE STYLES END */
+
+/* ABOUT STYLES */
+.intro {
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: center;
+}
+
+.intro h2 {
+    text-align: right;
+    margin: 30px;
+    padding: 0px 20px 50px 0px;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: var(--primary-color);
+    padding: 0px 40px 10px 0px;
+    margin: 30px 30px 30px 0px;
+}
+/* ABOUT STYLES END */

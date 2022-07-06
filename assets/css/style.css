@@ -198,21 +198,21 @@ header nav ul li a:hover {
     background-image: url("../images/work_bg1.jpg");
     border: 5px solid var(--secondary-color);
     margin: 30px 70px 10px 0px;
-    padding: 0px 0px 10px 40px;
     height: 500px;
 }
 
 .showcase-tag1 {
     background-color: var(--secondary-color);
-    margin: 0px 10px 10px 0px;
+    margin: 0px 700px 10px 0px;
     position: relative;
-    top: 340px;
+    top: 400px;
 }
 
 .showcase-layer2 {
     display: flex;
     justify-content: space-between;
     margin: 10px 70px 10px 0px;
+    height: 200px;
 }
 
 .secondary-border {
@@ -222,9 +222,9 @@ header nav ul li a:hover {
 
 .showcase-tag2 {
     background-color: var(--secondary-color);
-    margin: 0px 10px 10px 0px;
+    margin: 0px 240px 10px 0px;
     position: relative;
-    top: 30px;
+    top: 100px;
 }
 
 .showcase2 {

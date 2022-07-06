@@ -111,18 +111,12 @@ header nav ul li a:hover {
     color: var(--primary-color);
 }
 
-.primary-border {
-    border-color: var(--primary-color);
-}
-
 /* SECTION TITLE STYLES END */
 
 /* CONTENT STYLES START */
 .content {
     background-color: var(--tertiary-color);
     display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
     flex-direction: column;
     width: 100%;
 }
@@ -130,16 +124,16 @@ header nav ul li a:hover {
 /* CONTENT STYLES END*/
 
 /* ABOUT STYLES START*/
-.intro {
+.content-display {
     display: inline-flex;
     justify-content: space-between;
 }
 
-.nav-intro {
+.nav {
     width: 30%;
 }
 
-.nav-intro h2 {
+.nav h2 {
     text-align: right;
     margin: 30px;
 }
@@ -149,7 +143,7 @@ header nav ul li a:hover {
 }
 
 .block-intro p {
-    border-left: 3px solid;
+    
     color: var(--primary-color);
     line-height: 1.7;
     font-size: 20px;
@@ -157,25 +151,14 @@ header nav ul li a:hover {
     margin: 30px 70px 10px 0px;
     padding: 0px 0px 10px 40px;
 } 
+
+.block-border {
+    border-left: 3px solid;
+}
 /* ABOUT STYLES END */
 
 /* WORK START */
-.showcases {
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-.nav-showcases {
-    width: 30%;
-}
-
-.nav-showcases h2 {
-    text-align: right;
-    margin: 30px;
-}
-
 .block-showcases {
-    border-left: 3px solid;
     color: var(--primary-color);
     margin: 30px 0px 10px 0px;
     padding-left: 40px;
@@ -215,9 +198,8 @@ header nav ul li a:hover {
     height: 200px;
 }
 
-.secondary-border {
+.primary-border {
     border: 5px solid var(--secondary-color);
-    /*padding: 10px 540px 0px 0px;*/
 }
 
 .showcase-tag2 {
@@ -227,49 +209,34 @@ header nav ul li a:hover {
     top: 100px;
 }
 
+.showcase-width {
+    width: 50%;
+}
+
 .showcase2 {
     background-image: url("../images/work_bg2.jpg");
     margin: 0px 10px 0px 0px;
-    width: 50%;
 }
 
 .showcase3 {
     background-image: url("../images/work_bg3.jpg");
     margin: 0px 0px 0px 10px;
-    width: 50%;
 }
 
 .showcase4 {
     background-image: url("../images/work_bg4.jpg");
     margin: 0px 10px 0px 0px;
-    width: 50%;
 }
 
 .showcase5 {
     background-image: url("../images/work_bg5.jpg");
     margin: 0px 0px 0px 10px;
-    width: 50%;
 }
 
 /* WORK END */
 
 /* CONTACT START*/
-.contact {
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-.nav-contact {
-    width: 30%;
-}
-
-.nav-contact h2 {
-    text-align: right;
-    margin: 30px;
-}
-
 .block-contact {
-    border-left: 3px solid;
     color: var(--primary-color);
     display: flex;
     justify-content: space-between;

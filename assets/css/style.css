@@ -187,7 +187,9 @@ header nav ul li a:hover {
 }
 
 .showcase-layer1 {
-    background-image: url("../images/work_bg1.jpg");
+    background-image: url("../images/eventHunter.PNG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     border: 5px solid var(--secondary-color);
     margin: 30px 70px 10px 0px;
     height: 500px;

@@ -46,7 +46,7 @@ GIVEN I need to sample a potential employee's previous work
 
 https://j7gong.github.io/week2Challenge/
 
-![GitHub Logo](/assets/images/webImage.JPG)
+![GitHub Logo](/assets/images/webImage2.JPG)
 
 ## **Contribution** 
 

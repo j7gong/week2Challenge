@@ -187,7 +187,7 @@ header nav ul li a:hover {
 }
 
 .showcase-layer1 {
-    background-image: url("../images/eventHunter.PNG");
+    background-image: url("../images/foodprint.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: 5px solid var(--secondary-color);
@@ -197,9 +197,10 @@ header nav ul li a:hover {
 
 .showcase-tag1 {
     background-color: var(--secondary-color);
-    margin: 0px 700px 10px 0px;
+    margin: 0px 50% 10% 0px;
     position: relative;
-    top: 400px;
+    top: 80%;
+    opacity: 70%;
 }
 
 .showcase-layer2 {
@@ -215,9 +216,10 @@ header nav ul li a:hover {
 
 .showcase-tag2 {
     background-color: var(--secondary-color);
-    margin: 0px 240px 10px 0px;
+    margin: 0px 50% 10% 0px;
     position: relative;
-    top: 100px;
+    top: 40%;
+    opacity: 70%;
 }
 
 .showcase-width {
@@ -225,8 +227,10 @@ header nav ul li a:hover {
 }
 
 .showcase2 {
-    background-image: url("../images/work_bg2.jpg");
+    background-image: url("../images/eventHunter.PNG");
     margin: 0px 10px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .showcase3 {
